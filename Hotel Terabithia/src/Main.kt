@@ -166,7 +166,7 @@ fun cadastrar() {
     println("Qual o nome do hóspede?")
     val nomeHospede = readln()
 
-    // Adiciona o nome à lista
+    
     listaHospedes.add(nomeHospede)
     println("Hóspede $nomeHospede foi cadastrado com sucesso!")
     pesquisarHospedes()
@@ -177,7 +177,7 @@ fun pesquisar() {
     println("Qual o nome do hóspede?")
     val nomeHospede = readln()
 
-    // Verifica se o hóspede está na lista
+
     if (listaHospedes.contains(nomeHospede)) {
         println("Hóspede $nomeHospede foi encontrado(a)!")
     } else {
